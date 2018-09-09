@@ -1,0 +1,33 @@
+<!-- 轮播图 -->
+<swiper class='swiper-class' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class='info-title'>活动分类
+</view>
+
+<view class='headnav weui-flex'>
+  <view class='headnav-item weui-flex'>
+    <view class='headnav-top'>
+      <image src="../../image/default_no.png" class="headnav-img" />
+    </view>
+    <view class='headnav-bottom'>
+      <text class='headnav-text'>公益活动</text>
+    </view>
+  </view>
+  <view class='headnav-item weui-flex'>
+    <view class='headnav-top'>
+      <image src="../../image/default_no.png" class="headnav-img" />
+    </view>
+    <view class='headnav-bottom'>
+      <text class='headnav-text'>户外活动</text>
+    </view>
+  </view>
+</view>
+
+<view class='info-title'>最新活动
+</view>
+

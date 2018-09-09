@@ -1,0 +1,56 @@
+/* 页面 */
+page {
+background:#f3f2f7;
+font-size:16px;
+color:#999;
+}
+/* 轮播图 */
+.swiper-class{
+height: 200px;
+width:100%;
+}
+.slide-image{
+  height: 200px;
+  width:100%;
+}
+.info-title{
+  margin:10px 0px;
+  height: 30px;
+  width: 100%;
+  padding-left: 10px;
+  background: #D7D7D7;
+  border-left:4px solid #5E5E5E;
+  line-height: 30px;
+}
+/* 活动分类 */
+.headnav{
+  margin:10px 0px;
+  height: 85px;
+  width: 100%;
+  background: #fff;
+  flex-direction: row;
+  justify-content:  space-around;
+}
+.headnav-item{
+  height: 85px;
+  width: 55px;
+  flex-direction: column;
+  justify-content: center;
+}
+.headnav-top{
+  height: 55px;
+  width: 55px;
+}
+.headnav-img{
+  height: 55px;
+  width: 55px;
+}
+.headnav-bottom{
+  height: 18px;
+  width: 55px;
+}
+.headnav-text{
+  height: 18px;
+  width: 55px;
+  font-size:13px;
+}

@@ -1,0 +1,175 @@
+page {
+  background: #f3f2f7;
+}
+.sign-top{
+  display:-webkit-box;
+display:-webkit-flex;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+-webkit-box-flex:1;
+-webkit-flex:1;
+flex:1;
+position:relative;
+}
+.mine-person {
+  text-align: center;
+}
+
+.mine-person image {
+  margin-top: 110rpx;
+}
+
+.name-title {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+}
+.mine-top .weui-grids {
+  border-left: none;
+  border-top: none;
+  width: 100%;
+  margin-top: 20rpx;
+  padding: 15px 0;
+  background: #fff;
+}
+
+.mine-top .weui-grid {
+  border-bottom: none;
+  color: #333;
+  padding: 0px 10px;
+}
+
+.mine-top .weui-grid:last-child {
+  border-right: none;
+}
+
+.mine-top .weui-grid__label {
+  color: #999;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 0px;
+}
+
+.info-data-pho {
+  width: 180rpx;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20rpx;
+}
+
+.con-name {
+  color: #333;
+  font-size: 20px;
+  line-height: 100rpx;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+/* 会员服务样式 */
+
+.weui-cells::before, .weui-cells::after {
+  content: none;
+}
+
+.weui-cells {
+  margin-top: 10px;
+}
+
+.weui-cells .weui-cell {
+  height: 80rpx;
+  border-bottom: 1px solid #ededed;
+}
+
+.weui-cells .weui-cell:last-child {
+  border-bottom: none;
+}
+
+.weui-cells .weui-cell::before {
+  content: none;
+}
+
+.weui-cells .weui-cell .weui-cell__bd {
+  font-size: 15px;
+  margin-left: 5px;
+  color: #333;
+}
+
+.weui-cells .weui-cell .weui-cell__ft {
+  font-size: 15px;
+  color: #666;
+}
+
+.weui-grid {
+  width: 50%;
+  text-align: center;
+}
+
+.weui-grid__icon {
+  width: 20px;
+  height: 20px;
+}
+.sign-section{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-title{
+  font-size: 15px;
+   display: flex;
+  align-items: center;
+}
+/*工作类型选择*/
+.sign-container{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+   font-size: 15px;
+    /* line-height: 15px; */
+}
+/*选择条目*/
+.icon_items{
+  background: #FB7651;
+  display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20rpx;
+  width: 80px;
+  height: 30px;
+  border-radius: 20rpx;
+}
+/*头部显示的打卡次数*/
+.cir-time{
+  height: 60px;
+  width: 60px;
+  background: #ffffff;
+  border-radius: 50%;
+  border:2px solid orangered;
+  display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:16px;
+}
+/*文本域*/
+textarea{
+padding:10px;
+  height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.btn-area{
+  margin: 0 20px;
+   height: 60px;
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

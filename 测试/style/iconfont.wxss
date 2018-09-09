@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 768775 */
+  src: url('//at.alicdn.com/t/font_768775_35mvk951034.eot');
+  src: url('//at.alicdn.com/t/font_768775_35mvk951034.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_768775_35mvk951034.woff') format('woff'),
+  url('//at.alicdn.com/t/font_768775_35mvk951034.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_768775_35mvk951034.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  }
+/*手机*/
+.icon_phone:after{
+  content:"\e65d";
+  color: #25B8F2;
+  font-size: 16px;
+  }
+/*添加*/
+.icon_add:after{
+  content:"\e7c1";
+  color: #ffffff;
+  font-size: 18px;
+  }
+/*搜索*/
+.icon_search:after{
+  content:"\e603";
+  color: #A8A8A9;
+  font-size: 16px;
+  }  
+/*电话*/
+.icon_tel:after{
+  content:"\e6cf";
+  color: #C7C7C7;
+  font-size: 16px;
+  }    
+/*时间*/
+.icon_time:after{
+  content:"\e628";
+  color: #C7C7C7;
+  font-size: 16px;
+  }     
+/*关闭*/
+.icon_close:after{
+  content:"\e605";
+  color: #C7C7C7;
+  font-size: 16px;
+  }  
+
+  /*右箭头*/
+.arrow-right:after{
+  content:"\e630";
+  font-size: 20px;
+  color: #D4D4D4; 
+}
+/*下箭头*/
+.arrow-down:after{
+  content:"\e612";
+  font-size: 20px;
+  color: #D4D4D4;
+}   
+/*喇叭*/
+.icon_sound:after{
+  content:"\e60c";
+  color: #FB7651;
+  font-size: 16px;
+  }     

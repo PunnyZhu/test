@@ -1,0 +1,60 @@
+<view class="mine">
+<view  class="mine-top weui-flex">
+  <button class='button-class' wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登陆 </button>
+  <block wx:else>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </block>
+  </view>
+</view>
+<view class='joindetail weui-flex'>
+  <view class='top weui-flex'>
+    <text>我参加的活动</text>
+    <text>所有活动>></text>    
+  </view>
+  <view class='bottom weui-flex'>
+    <view class='bottom-item weui-flex'>
+      <image src="../../image/default_no.png" class="activityicon" />
+      <text>待确认</text>
+    </view>
+    <view class='bottom-item weui-flex'>
+      <image src="../../image/default_no.png" class="activityicon" />
+      <text>待开始</text>
+    </view>
+    <view class='bottom-item weui-flex'>
+      <image src="../../image/default_no.png" class="activityicon" />
+      <text>待评价</text>
+    </view><view class='bottom-item weui-flex'>
+      <image src="../../image/default_no.png" class="activityicon" />
+      <text>活动异常</text>
+    </view>
+  </view>
+</view>
+
+<view class='mid'>
+ <view class="weui-cells">
+    <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <image class="weui-grid__icon" src="/image/person_icon.png" />
+      <view class="weui-cell__bd">我的收藏
+      </view>
+      <view class="weui-cell__ft">
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <image class="weui-grid__icon" src="/image/phone_icon.png" />
+      <view class="weui-cell__bd">我的资料</view>
+      <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <image class="weui-grid__icon" src="/image/name_icon.png" />
+      <view class="weui-cell__bd">公益成就</view>
+      <view class="weui-cell__ft">
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <image class="weui-grid__icon" src="/image/mail_icon.png" />
+      <view class="weui-cell__bd">建议反馈</view>
+      <view class="weui-cell__ft"></view>
+    </view>
+  </view>
+  </view>

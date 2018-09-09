@@ -1,0 +1,80 @@
+<view class="weui-cell sign-top" style="">
+  <view class='cir-time'><text>今</text><text>第1次</text></view>
+</view>
+
+<view class="weui-cells">
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <icon class="iconfont icon-rili weui-flex" style="margin-right:5px; "></icon>
+    <view class="weui-cell__bd">时间
+    </view>
+    <view class="weui-cell__ft">2018年8月7日 11：25
+    </view>
+  </view>
+      <view  style='height:20px;background-color:#f3f2f7'></view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <icon class="iconfont icon-weizhi weui-flex" style="margin-right:5px;"></icon>
+    <view class="weui-cell__bd">位置</view>
+    <view class="weui-cell__ft">北京市海淀区...</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <icon class="iconfont icon-xingcheng weui-flex" style="margin-right:5px;"></icon>
+    <view class="weui-cell__bd">行程 </view>
+    <view class="weui-cell__ft">1111.0公里
+    </view>
+  </view>
+        <view  style='height:20px;background-color:#f3f2f7'></view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <icon class="iconfont icon-youeryuan weui-flex" style="margin-right:5px;"></icon>
+    <view class="weui-cell__bd">幼儿园</view>
+    <view class="weui-cell__ft">输入/选择幼儿园</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <icon class="iconfont icon-kehu weui-flex" style="margin-right:5px;"></icon>
+    <view class="weui-cell__bd">客户</view>
+    <view class="weui-cell__ft">请输入客户名称...
+    </view>
+
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <icon class="iconfont icon-shoujihao weui-flex" style="margin-right:5px;"></icon>
+    <view class="weui-cell__bd">手机号</view>
+    <view class="weui-cell__ft">请输入客户手机号</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <icon class="iconfont icon-dizhi weui-flex" style="margin-right:5px;"></icon>
+    <view class="weui-cell__bd">地址</view>
+    <view class="weui-cell__ft">请输入详细地址</view>
+  </view>
+</view>
+
+<view class="sign-section" style="background-color:#ffffff;">
+  <view class='sign-title'>
+    <icon class="iconfont icon-gongzuo" style="margin:0 5px;"></icon>
+    <text>工作类型(可多选)</text>
+  </view>
+  <view class='sign-container'>
+    <view  class='.icon_items' style='background-color:white;border:1px solid  #FB7651;'><icon type="success" size="16" color=" #FB7651"/>
+首次</view>
+ <view  class='.icon_items' style='background-color:white;border:1px solid  #FB7651;'><icon type="success" size="16" color=" #FB7651"/>
+回款</view>
+    <view class='.icon_items'>线索</view>
+    <view class='.icon_items'>合同</view>
+    <view class='.icon_items'>送发票</view>
+    <view class='.icon_items'>其他</view>
+  </view>
+</view>
+
+ <view  style='height:20px;background-color:#f3f2f7'></view>
+
+<view style='height:240px;background:#ffffff;display:flex;flex-direction:column'>
+<textarea placeholder='请输入备注内容...' placeholder-style='font-size:16px'>
+</textarea>
+ <view class="weui-uploader__input-box" style='margin-left:10px'>
+                    <view class="weui-uploader__input" bindtap="chooseImage" ></view>
+                    </view>
+                    <view style='font-size:16px'>还可以上传9张照片</view>
+</view>
+<view class='btn-area'>
+       <button class="mini-btn" type="primary" size="mini">返回</button>
+       <button class="mini-btn" type="default" size="mini">签到</button>
+</view>

@@ -1,0 +1,73 @@
+page {
+background:#f3f2f7;
+font-size:16px;
+color:#999;
+}
+.mine{
+  height:120px;
+  width: 100%;
+  background-color: #CCCCCC;
+}
+.mine-top{
+  height: 90px;
+  width: 100%;
+  background-color: #CCCCCC;
+  flex-direction: row;
+  align-items:center;
+}
+.button-class{
+  height: 35px;
+  line-height: 35px;
+  background-color: #ff8719;
+  color:#fff;
+  align-self: center;
+}
+.userinfo-avatar {
+ width:60px;
+ height: 60px;
+ margin: 0 20px;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color:black;
+ /* align-self:flex-end; */
+ /* margin-bottom: 30rpx; */
+}
+.usermotto {
+  margin-top: 200px;
+}
+
+.joindetail{
+  position: absolute;
+  flex-direction: column;  
+  top:90px;
+  left: 0px;
+  height: 120px;
+  width: 90%;
+  background: #fff;
+ margin: 0 5%;
+  border-radius: 10px;
+ box-shadow: 5px 5px 5px #888888;
+}
+.top{
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+.bottom{
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bottom-item{
+  flex-direction: column;
+}
+.activityicon{
+  height: 45px;
+  width:45px;
+}
+.mid{
+  width: 100%;
+  position: absolute;
+  top:220px;
+  left: 0px;
+}

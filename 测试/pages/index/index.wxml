@@ -1,0 +1,99 @@
+<!-- 轮播图 -->
+<swiper class='swiper-class' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 资讯标签导航 -->
+<view class='headnav weui-flex'>
+  <view class='headnav-item weui-flex'>
+    <view class='headnav-top'>
+      <image src="../../image/default_no.png" class="headnav-img" />
+    </view>
+    <view class='headnav-bottom'>
+      <text class='headnav-text'>公益资讯</text>
+    </view>
+  </view>
+  <view class='headnav-item weui-flex'>
+    <view class='headnav-top'>
+      <image src="../../image/default_no.png" class="headnav-img" />
+    </view>
+    <view class='headnav-bottom'>
+      <text class='headnav-text'>户外资讯</text>
+    </view>
+  </view>
+  <view class='headnav-item weui-flex'>
+    <view class='headnav-top'>
+      <image src="../../image/default_no.png" class="headnav-img" />
+    </view>
+    <view class='headnav-bottom'>
+      <text class='headnav-text'>服务评价</text>
+    </view>
+  </view>
+  <view class='headnav-item weui-flex'>
+    <view class='headnav-top'>
+      <image src="../../image/default_no.png" class="headnav-img" />
+    </view>
+    <view class='headnav-bottom'>
+      <text class='headnav-text'>公益明星</text>
+    </view>
+  </view>
+</view>
+<!-- 最新资讯 -->
+<view class='info-title'> 最新资讯
+</view>
+<view class='info-list-row weui-flex'>
+  <view class='info-left weui-flex'>
+    <text class='tag'>置 顶</text>
+    <text class='title'>标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</text>
+    <view class='bottom-remark weui-flex'>
+      <text class='author'>公益资讯 | 崐鹏志愿者之家 </text>
+      <text class='time'>2018-08-31</text>
+    </view>
+  </view>
+  <view class='info-right weui-flex'>
+    <image src="../../image/default_no.png" class="info-img" />
+  </view>
+</view>
+<view class='info-list-col weui-flex'>
+  <view class='info-top weui-flex'>
+    <text class='title'>标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</text>
+  </view>
+  <view class='info-bottom weui-flex'>
+      <text class='author'>公益资讯 | 崐鹏志愿者之家 </text>
+      <text class='time'>2018-08-31</text>
+      <text class='tag-bgred'>快讯</text>
+  </view>
+</view>
+<view class='info-list-col-img weui-flex'>
+  <view class='info-head weui-flex'>
+    <image src="../../image/default_no.png" class="info-head" />
+  </view>
+  <view class='info-mid weui-flex'>
+    <text class='title'>标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</text>
+  </view>
+    <view class='info-bottom weui-flex'>
+      <text class='author'>公益资讯 | 崐鹏志愿者之家 </text>
+      <text class='time'>2018-08-31</text>
+  </view>
+</view>
+<view class='info-list-col weui-flex'>
+  <view class='info-top weui-flex'>
+    <text class='title'>标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</text>
+  </view>
+  <view class='info-bottom weui-flex'>
+      <text class='author'>公益资讯 | 崐鹏志愿者之家 </text>
+      <text class='time'>2018-08-31</text>
+      <text class='tag-bgred'>快讯</text>
+  </view>
+</view>
+<!-- 加载更多 -->
+<view class='hasmore weui-flex'>
+<text class='more-top'>------点击查看更多资讯-----</text>
+<view class='more-bottom  weui-flex'>
+  <button class="btn">公益资讯</button>
+  <button class="btn">户外资讯</button>
+</view>
+</view>
